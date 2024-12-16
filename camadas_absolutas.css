@@ -1,0 +1,58 @@
+#camada1{ /*div= divisões na página*/ /*nome de id não pode começar com número, conter espaços ou acentos*/
+    position: absolute; /*camada absoluta = utilizada para algo que fica sobreposto - relativa = montar layout, encaixar conteúdos*/
+    top: 150px; /*espaço da div em relação ao topo*/
+    left: 100px; /*espaço da div em relação a esquerda*/
+    width: 170px;
+    height: 100px;
+    border: 5px solid red;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    z-index: 2;
+}
+#camada2{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    background-color: aquamarine;
+    border: 3px dashed rgb(0, 133, 107);
+    width: 170px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    z-index: 3;
+}
+#camada3{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    background-color: rgb(255, 182, 255);
+    border: 5px double rgb(64, 0, 76);
+    width: 170px;
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    z-index: 1;
+}
+#camada3{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    background-color: rgb(255, 182, 255);
+    border: 5px double rgb(64, 0, 76);
+    width: 170px;
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    z-index: 1;
+}
+#camada4{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    z-index: 4;
+}

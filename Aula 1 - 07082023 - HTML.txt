@@ -1,0 +1,34 @@
+Aula 1 - 07/08/2023 - HTML
+
+*VS CODE*
+
+Nomear arquivo -> nomedoarquivo.extensão
+Exemplo -> teste.html / teste.js / teste.java
+
+*Evitar espaço em branco no nome, começar com número ou acentuação
+
+- 1teste.html -> teste1.html
+- teste 1.html -> teste_1.html
+- almoço.html -> almoço.html
+
+*TAG -> Comandos no HTML
+
+*CTRL + S = SALVAR FILE*
+
+
+<!DOCTYPE html> -> HTML5
+<!-- Comentário -->
+
+BARRA -> <html> </html> Fecha a tag
+
+<head> -> cabeçalho
+
+<title> -> título da ABA do browser
+
+</head>
+
+<body>
+
+<h1> -> heading: (h1;h2;h3, etc) - até o h6	
+
+	

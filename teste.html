@@ -1,0 +1,111 @@
+<!DOCTYPE html> <!-- Indica versão HTML5 -->
+<html>
+    <head>
+        <title>Testando as primeiras Tags</title>
+        <style>
+            body{
+                font-size:20px; /*tamanho da fonte*/
+                color: purple; /*cor da fonte*/
+                text-align: center; /*alinhar texto*/
+                background-color: rgb(204, 255, 242); /*cor de fundo, para a página ou para só uma parte (parágrafo, imagem, gráfico, etc.)*/
+                background-image: url("imagens/14465d690b964721d944ac4ce5c83af3.png"); /*insere imagem no fundo da página*/
+                background-repeat: no-repeat; /*a imagem não se repete no fundo da tela*/
+                background-position: center; /*posição da imagem - "50% 50%"" também deixa centralizado*/
+                background-attachment: fixed; /*fixa a imagem - somente o fundo anda*/
+                background-size: cover; /*preenche o fundo da página com imagem*/
+            }
+            h1{
+                font-size:5em; /*px, pt, em, picas, cm, mm, %, */
+                color:rgb(73, 45, 21);
+                background-color: sandybrown;
+            }
+            h2{
+                font-size: 100%;
+                color: red;
+                background-color: salmon;
+                font-family: Arial, Helvetica, sans-serif; /*mudar fonte*/
+            }
+            h3{
+                color:black;
+                background-color: blanchedalmond;
+                width: 600px; /*o texto está dentro de 600px*/
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: normal; /*tirou do negrito*/
+                text-decoration: underline; /*sublinhar*/
+            }
+
+            h4,h5,h6{
+                font-size: 30px;
+                color:rgb(187, 41, 255);
+                background-color: blanchedalmond;
+                width: 800px;
+                text-align: center;
+                margin: 6px; /*espaço para fora da área*/
+            }
+
+            h4{
+                text-align: left;
+                margin-left: 100px; /*alinha somente a margem a esquerda*/
+                border: 5px; /*espessura da borda*/
+                border-style: solid; /*estilo da borda*/
+                border-color: rgb(111, 130, 0);
+                padding: 10px; /*espaço para dentro da área*/
+            }
+
+            h5{
+                margin: auto; /*centraliza o componente na horizontal - acompanha a dimensão da tela (design responsivo)*/
+                border: 5px; /*espessura da borda*/
+                border-style: double; /*estilo da borda*/
+                border-color: rgb(0, 0, 0);
+            }
+
+            h6{
+                text-align: right;
+                margin: 10px 20px 30px 40px; /*ajusta o top, right, bottom, left, respectivamente*/
+                border-bottom: 5px dotted white;
+                padding-right: 10px;
+            }
+
+            .diferente{
+                background-color: rgba(11, 133, 133, 0.507);
+            } /*class= diferenciar padrões*/
+
+            #happycat{
+                width: 200px;
+                height: 200px;
+            } /*id= identificação - utiliza-se "#" (cerquilha) no CSS <style>*/
+
+            #powerpuff{
+                width: 400px;
+                height: 400px;
+            }
+
+            #flower{
+                width: 250px;
+                height: 150px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <p>Um texto qualquer</p> <!--Parágrafo-->
+        <h1>Testando Heading H1</h1> <!--tamanho título/importância da informação-->
+        <h2>Testando Heading H2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quisquam ullam fugit? Nostrum quasi error recusandae, laborum, quam assumenda voluptatem minus delectus maiores quo quia totam ipsam esse sint fugit!</p> <!-- Alt+Z = quebra de texto -->
+        <h3>Testando Heading H3</h3>
+        <h3 class="diferente">Testando Heading H3</h3>
+        <h3>Testando Heading H3</h3>
+        <h4>Testando Heading H4</h4>
+        <h5>Testando Heading H5</h5>
+        <h6>Testando Heading H6</h6>
+
+        <img id= "happycat" src="imagens/happy-cat.gif" alt="Gif de um gatinho feliz" title= "Gatinho feliz" />
+
+        <img id= "powerpuff" src="imagens/14465d690b964721d944ac4ce5c83af3.png" width="200" height="200" alt="Meninas superpoderosas: a esquerda, lindinha, com cabelos loiros, olhos e roupas azuis; no centro, florzinha, de cabelos ruivos, olhos e acessorios vermelhos; a direita, docinho, de cabelos pretos, olhos e roupas verdes." title= "Meninas superpoderosas" />
+
+        <img id= "flower" src="imagens/360_F_562441087_zPFz059UHodkI7S9VTSx2IbQBxbpZjbe.jpg" width="300  " height="200" alt="Imagem de uma parede em um tom rosa/salmão pastel, com uma flor delicada em tons roxos" title= "Flor em um fundo rosa" />
+
+        <!-- alt= leitura / title= mostra a legenda da imagem quando posicionado o mouse em cima.-->
+
+    </body>
+</html>
